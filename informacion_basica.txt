@@ -1,1 +1,18 @@
-hola soy diogo
+                                            Informacion sobre Huella de Carbono y Software Verde
+
+                 Alguna vez te detuviste a pensar en el impacto que nuestras acciones diarias tienen en el ambiente?
+Cada eleccion, desde como nos movemos y que comemos hasta la energia que usamos en casa, contribuye a nuestra huella de carbono diaria. 
+Esta huella representa las emisiones de gases de efecto invernadero que generamos y que influyen directamente en el cambio climatico.
+Ademas de nuestras actividades cotidianas, nuestra interaccion con la tecnologia tambien suma. 
+La huella de carbono digital se refiere a las emisiones asociadas al uso de internet, nuestros dispositivos electronicos y toda la infraestructura que los soporta. 
+Cada email enviado, cada serie que ves en streaming y cada busqueda en linea consume energia y, por ende, genera un impacto.
+
+Frente a esto, surge el concepto de Software Verde (Green Software). Es un enfoque que busca desarrollar y operar software de manera mas eficiente energeticamente. 
+Su meta es reducir al minimo el consumo de energia de los sistemas informaticos, disminuyendo asi su huella de carbono.
+Esto se logra optimizando el codigo, utilizando infraestructuras mas eficientes y promoviendo practicas que alarguen la vida util de los dispositivos electronicos.
+Entender tanto nuestra huella diaria como la digital, y promover iniciativas como el Software Verde, son pasos fundamentales para construir un futuro mas sostenible.
+
+                                                                Como te ayuda esta app?
+
+Esta aplicacion te permite calcular tu huella de carbono diaria y digital, dandote una idea clara de tu impacto. 
+Al conocer estos numeros, podes tomar decisiones mas conscientes para reducir tu contribucion al cambio climatico y ser parte de la solucion.

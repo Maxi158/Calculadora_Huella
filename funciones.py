@@ -175,13 +175,15 @@ def cant_imp(res_elec,res_gas,res_diet,res_res):#Suma todos los factores de la o
     print(f"""\n\n\n ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ \n Su impacto total es :{imp_tot}(kgCO2e/día)""")
     histo_huella(res_elec,res_gas,res_res,res_diet,imp_tot)#luego de obtener los resultados se guardan en el historial
     if imp_tot < 8:
-        print ("""Su huella es Baja/Menor \n Felicitaciones a seguir asi!!""")
+        print (f"""Su huella es Baja/Menor \n Felicitacioness!!\nEsta cantidad equivale a aproximadamente:\n El CO2 necesario para poder inflar {int(imp_tot*35)} globos en total\nEL CO2 que se emanaria de un auto luego de recorrer {int(imp_tot*5)}km""")
     elif imp_tot < 20:
-        print ("Su huella es Media/Promedio")
+        print (f"""Su huella es Media/Promedio \n Esta cantidad equivale a aproximadamente:\nEl CO2 necesario para poder inflar {int(imp_tot*35)} globos en total\nEL CO2 que se emanaria de un auto luego de recorrer {int(imp_tot*5)}km""")
     elif imp_tot > 20:
-        print ("Su huella es Muy Alta")
+        print (f"""Su huella es Muy Alta\nEsta cantidad equivale a aproximadamente:\nEl CO2 necesario para poder inflar {int(imp_tot*35)} globos en total\nEL CO2 que se emanaria de un auto luego de recorrer {int(imp_tot*5)}km""")
+        print("DATO CURIOSO:\nEn un mes inflarias la cantidad aprox de globos que se usaron para elevar la casa de UP\nTambien esa distancia es mas de la mitad de la extencion de la ruta mas larga de Argentina")
     else:
         print("Error")
+    print ("\n\n\nPathZero realiza un calculo basado en promedios de emanacion de carbono en Argentina.\nLos calculos dan una idea estimada basada en un promedio por lo cual no son siempre precisos.")
     return imp_tot
     
 def histo_huella(res_elec,res_gas,res_res,res_diet,imp_tot):# Genera una lista que detalla y anota en un archivo externo los valores, el total y la fecha.
